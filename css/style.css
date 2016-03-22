@@ -1,0 +1,73 @@
+/* style.css, by default saved in subfolder /css */
+.mytd{ 
+	height: 20%;
+	width: 20%;
+}
+
+td img {
+	height: auto;
+	width: 100%;
+}
+
+#tbl {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td.left :hover{
+	transition: 0.5s ease-out;
+	transform: translate(20%);                                                            
+}
+
+td.right :hover{
+	transition: 0.5s ease-out;
+	transform: translate(-20%);
+}
+
+
+td.selectedLeft {
+	transform: translate(20%);
+}
+
+td.selectedRight {
+	transform: translate(-20%);
+}
+
+td.doneLeft {
+	-webkit-filter: brightness(0%);
+}
+
+td.doneRight {
+	-webkit-filter: brightness(0%);
+}
+
+.center {
+	text-align: center;
+}
+
+#cvs {
+	display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.blue {
+	color: blue;
+}
+
+.nav-tabs-center {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs {
+    text-align:center;
+}	
+
+.align-right {
+	float: right;
+}
